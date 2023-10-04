@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+:root {
+    --cor-primaria: #000000 ;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #006c92;
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria) ;
+    color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.titulodestaque {
+    color: var(--cor-terciaria);
+   
+}
+
+.apresentacao {
+    padding: 4% 8%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap-reverse ;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 575px;    
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 35px;
+
+}
+
+.aprensentacao__conteudo__titulo {
+    font-size: 2.25rem;
+}
+
+.texto {
+    font-size: 1.38rem;
+    font-family:'Courier New', Courier, monospace
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+.botoes__medidas {
+    width: 280px;
+    border-radius: 8px;
+    font-size: 1.40rem;
+    padding: 8px 0;
+    text-decoration: none; 
+    font-weight: bold;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.botoes__medidas:hover{
+    background-color: var(--cor-hover);
+}
+
+.imagem {
+    text-align: auto;
+    border-radius: 10px;
+    height: 345px; 
+    width: 340px;
+    object-fit: cover; 
+}
+
+html {
+    height: 100%; 
+}
+
+.h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    font-weight: 400;
+    font-size: 1.44rem;
+}
+
+.desenvolvedor {
+    padding: 5px;
+    margin: 20px;
+    color: var(--cor-secundaria);
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: small;
+}
+
+.desenvolvedor__texto {
+    text-decoration: underline wavy red;
+    color: var(--cor-secundaria);
+
+}
+
+.cabecalho {
+   padding: 2% 6% 0% 14% ;
+  
+}
+
+.menu {
+    display: flex;
+}
+
+.botoesmenu {
+    margin: 1%;
+    padding: 2%;
+    color: var(--cor-secundaria);
+    font-size: 1.25rem;
+    font-family: monospace;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.botoesmenu:hover {
+    color: var(--cor-terciaria);
+}
+
+.contato {
+    margin: 1%;
+    padding: 2%;
+    color: var(--cor-secundaria);
+    font-size: 1.25rem;
+    font-family: monospace;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.contato:hover{
+    color: var(--cor-terciaria);
+}
