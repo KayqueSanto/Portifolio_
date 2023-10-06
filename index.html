@@ -11,14 +11,33 @@
     <title>Portifolio</title>
 
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/css.css">
+
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="menu">
-            <a class="botoesmenu" href="index.html">Home</a>
-            <a class="botoesmenu" href="about.html">Sobre mim</a>
-            <a class="contato" href="mailto:kayque.a.s@hotmail.com">Contato</a>
-        </nav>
+        <body>
+            <div class="menu-btn" id="menuBtn">&#9776; Menu</div>
+            <div class="sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="close-btn" id="closeBtn">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">Sobre Mim</a>
+
+                <a href="#" id="projeto-link">Projetos</a>
+
+            </div>
+ 
+ <!--           <nav class="menu">
+                <a class="botoesmenu" href="index.html">Home</a>
+                <a class="botoesmenu" href="about.html">Sobre mim</a>
+                <a class="botoesmenu" href="">Projetos</a>
+            </nav>
+    -->
+           
+
+ <!--           <nav class="cont">
+                <a class="contato" href="mailto:kayque.a.s@hotmail.com">Contato</a>
+            </nav> -->
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -30,8 +49,8 @@
             </p>
             <div class="botoes">
             <h2 class="h2">Acesse minhas redes:</h2>
-            <a class="botoes__medidas" href="https://github.com/KayqueSanto"> <img src="imagens/github.png" alt="GitHub"> GitHub</a>
-            <a class="botoes__medidas" href="https://www.linkedin.com/in/kayque-santos-9a8115189/"><img src="imagens/linkedin.png" alt="LinkedIn">LinkedIn</a>
+            <a class="botoes__medidas" href="https://github.com/KayqueSanto" target="_blank"> <img src="imagens/github.png" alt="GitHub"> GitHub</a>
+            <a class="botoes__medidas" href="https://www.linkedin.com/in/kayque-santos-9a8115189/" target="_blank"><img src="imagens/linkedin.png" alt="LinkedIn">LinkedIn</a>
 
            </div>
            
@@ -44,5 +63,8 @@
     <!--  <p>Desenvolvido por <a class="desenvolvedor__texto" href="mailto:kayque.a.s@hotmail.com"> Kayque Santos</p></a> -->
         <p>&copy; 2023 Kayque Santos</p>
     </footer>  
+
+    <script src="script.js"></script>
+
 </body>
 </html>

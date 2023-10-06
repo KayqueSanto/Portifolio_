@@ -9,21 +9,41 @@
 
     <title>Sobre mim</title>
 
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/css.css">
 
 </head>
 <body>
     <header class="cabecalho">
-            <nav class="menu">
+        <body>
+            <div class="menu-btn" id="menuBtn">&#9776; Menu</div>
+            <div class="sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="close-btn" id="closeBtn">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">Sobre Mim</a>
+
+                <a href="#" id="projeto-link">Projetos</a>
+
+            </div>
+ 
+ <!--           <nav class="menu">
                 <a class="botoesmenu" href="index.html">Home</a>
                 <a class="botoesmenu" href="about.html">Sobre mim</a>
-                <a class="contato" href="mailto:kayque.a.s@hotmail.com">Contato</a>
+                <a class="botoesmenu" href="">Projetos</a>
             </nav>
+    -->
+           
+
+ <!--           <nav class="cont">
+                <a class="contato" href="mailto:kayque.a.s@hotmail.com">Contato</a>
+            </nav> -->
     </header>
 
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+            <h1 class="apresentacao__conteudo__titulo">Sobre
+                <strong class="titulodestaque">mim</strong>
+            </h1>
             <P class="texto">Sou apaixonado por tecnologia e criatividade. Com uma mente curiosa e uma paixão pelo aprendizado, estou sempre em busca de desafios emocionantes. Como um entusiasta da programação, dedico meu tempo a aprimorar minhas habilidades de desenvolvimento web e a explorar novas tecnologias.</P>
             <P class="texto">Além disso, sou um comunicador habilidoso e adoro trabalhar em equipe para alcançar objetivos comuns. Minha atitude positiva e adaptabilidade me ajudará a superar obstáculos e a abraçar novas oportunidades.</P>
         </section>
@@ -34,5 +54,8 @@
           <!--  <p>Desenvolvido por <a class="desenvolvedor__texto" href="mailto:kayque.a.s@hotmail.com"> Kayque Santos</p></a> -->
           <p>&copy; 2023 Kayque Santos</p> 
     </footer>  
+
+    <script src="script.js"></script>
+
 </body>
 </html>

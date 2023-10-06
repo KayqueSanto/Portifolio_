@@ -6,6 +6,7 @@
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #22d4fd;
     --cor-hover: #006c92;
+    --cor-cont: rgb(28, 254, 3);
 }
 
 *{
@@ -151,5 +152,5 @@ html {
 }
 
 .contato:hover{
-    color: var(--cor-terciaria);
+    color: var(--cor-cont);
 }

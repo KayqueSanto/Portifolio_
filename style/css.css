@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidenav {
+    height: 80%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1896af;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 15px; /* Tamanho da fonte ajustado */
+    color: #fff;
+    display: block;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+    background-color: #c3bcbc;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 1px; /* Ajuste do espaçamento direito */
+    font-size: 2px; /* Tamanho da fonte ajustado */
+    margin-left: 10px;
+}
+
+.menu-btn {
+    font-size: 20px; /* Tamanho da fonte ajustado */
+    cursor: pointer;
+    position: fixed;
+    top: 25px;
+    left: 17.2px;
+    z-index: 2;
+    color: #353535;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px; /* Borda mais arredondada */
+}
+
+.menu-btn:hover {
+    background-color: #eee;
+}
