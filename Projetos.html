@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style/popup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+
+    <link rel="Sobre mim Icon" type="png" href="imagens/icone.png">
+
+</head>
+<body>  
+    <div id="overlay"></div>
+    <div id="conteudo" style="display: none;"> </div>
+
+    <main class="proj">
+        <section class="proj_pop">
+            <h1 class="title"> Conheça alguns dos meus projetos abaixo:</h1>
+        </section>
+    </main>
+
+    <!-- Botões para exibir os popups -->
+    <button class="popup-button" data-index="0">Projeto ForTech</button>
+    <button class="popup-button" data-index="1">Mostrar Popup 2</button>
+    
+    <div id="popups">
+        <div class="popup">
+            <div class="popup-content">
+                <h2>ForTech</h2>
+                <img class="img" src="imagens/ForTech-man.png" alt="Imagem do popup 1">
+            </div>
+            <div class="popup-link">
+                <a href="https://fortech-ltda.vercel.app/" target="_blank">Visualize o projeto.</a>
+            </div>
+            <button onclick="fecharPopup(0)">Fechar</button>
+        </div>        
+
+        <div class="popup">
+            <div class="popup-content">
+                <h2></h2>
+                <img class="img" src="" alt="Imagem do popup 2">
+            </div>
+            <div class="popup-link">
+                <a href="#" target="_blank">Visualize o projeto.</a>
+            </div>
+            <button onclick="fecharPopup(1)">Fechar</button>
+        </div>  
+    </div>
+
+    <script src="popup.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
