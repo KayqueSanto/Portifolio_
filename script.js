@@ -15,15 +15,18 @@ if (window.location.pathname.endsWith("/Projetos.html")) {
   }, 1000);
 }
 */
+let menu = false
 document.getElementById("menuBtn").addEventListener("click", function () {
-  document.getElementById("mySidenav").style.width = "240px";
+  if (menu == false){
+    document.getElementById("mySidenav").style.width = "240px";
+    menu = true
+
+  } else if (menu == true) {
+    document.getElementById("mySidenav").style.width = "0";
+    menu = false
+  }
+
 });
-
-document.getElementById("closeBtn").addEventListener("click", function () {
-  document.getElementById("mySidenav").style.width = "0";
-});
-
-
 
 // mensagem quando a aba projetos for clicado
 document.getElementById('projeto-link').addEventListener('click', function(event) {
